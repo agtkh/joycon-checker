@@ -8,7 +8,7 @@ import { Footer } from './Footer';
 
 import { useTranslation } from 'react-i18next';
 
-const LandingContainer = styled.div`
+const LandingContainer = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,7 +86,7 @@ export const LandingPage: React.FC<Props> = ({ onStart }) => {
   const { t } = useTranslation(); // t関数を取得
   const [showTutorial, setShowTutorial] = useState(false); // モーダルの表示状態
   return (
-    <LandingContainer>
+    <LandingContainer as="main">
       <Title>{t('appTitle')}</Title>
       <Description>{t('landing.description')}</Description>
 

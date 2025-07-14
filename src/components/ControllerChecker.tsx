@@ -12,7 +12,7 @@ import { SettingsModal } from './SettingsModal';
 import { useTranslation } from 'react-i18next';
 import { Footer } from './Footer';
 
-const CheckerContainer = styled.div`
+const CheckerContainer = styled.main`
   width: 100%;
 `;
 
@@ -20,7 +20,7 @@ const Header = styled.header`
     margin-bottom: 2rem;
 `;
 
-const ControllerContainer = styled.div`
+const ControllerContainer = styled.main`
     min-height: 350px;
     display: flex;
     justify-content: center;
@@ -142,7 +142,7 @@ export const ControllerChecker: React.FC<{ onBack: () => void }> = ({ onBack }) 
   }, [currentButtons, prevButtons, controllerType, logButtonPush]);
 
   return (
-    <CheckerContainer>
+    <CheckerContainer as="main">
       <Header>
         <h1>{t('checker.title')}</h1>
       </Header>
