@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agtkh.github.io/joycon-checker/sitemap.xml

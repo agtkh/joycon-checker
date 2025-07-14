@@ -1,0 +1,61 @@
+{
+  "appTitle": "Nintendo Switch Controller Checker",
+  "landing": {
+    "description": "Connect your controller to your PC or tablet and press any button. You will be automatically taken to the checker screen.",
+    "manualStart": "Start Check Manually",
+    "howToConnect": "How to Connect",
+    "svgPreview": "SVG Preview"
+  },
+  "checker": {
+    "title": "Controller Input Checker",
+    "connected": "Connected: {{id}}",
+    "notConnected": "No controller connected",
+    "connectPrompt": "Please connect a controller. After pairing with your PC/device, press any button to begin.",
+    "unsupported": "Unsupported Controller:",
+    "backToTop": "Back to Top",
+    "settings": "Color Settings",
+    "reset": "Reset Checks",
+    "sidewaysNote": "Note: When using a Joy-Con sideways, the stick-press button may not be detected due to OS or browser limitations. This is not a controller defect.",
+    "buttonLogStart": "Press button to start input"
+  },
+  "buttons": {
+    "A": "A",
+    "B": "B",
+    "X": "X",
+    "Y": "Y"
+  },
+  "tutorial": {
+    "title": "How to Connect Controller",
+    "windows": "Windows",
+    "ipad": "iPad",
+    "mac": "Mac",
+    "guide": {
+      "windows": {
+        "title": "Connecting on Windows",
+        "step1": "1. Open \"Settings\" and select \"Devices\" > \"Bluetooth & other devices\".",
+        "step2": "2. Click \"Add Bluetooth or other device\".",
+        "step3": "3. Press and hold the sync button on your controller to enter pairing mode.",
+        "step4": "4. When \"Pro Controller\" or \"Joy-Con\" appears in the device list, select it to pair."
+      },
+      "ipad": {
+        "title": "Connecting on iPad",
+        "step1": "1. Open the \"Settings\" app and tap \"Bluetooth\".",
+        "step2": "2. Make sure Bluetooth is turned on.",
+        "step3": "3. Press and hold the sync button on your controller to enter pairing mode.",
+        "step4": "4. When the controller name appears in the \"Other Devices\" list, tap it to pair."
+      },
+      "mac": {
+        "title": "Connecting on Mac",
+        "step1": "1. Open \"System Preferences\" and select \"Bluetooth\".",
+        "step2": "2. Make sure Bluetooth is turned on.",
+        "step3": "3. Press and hold the sync button on your controller to enter pairing mode.",
+        "step4": "4. When the controller appears in the device list, click the \"Connect\" button."
+      },
+      "unknown": "Please pair from your OS's Bluetooth settings."
+    }
+  },
+  "footer": {
+    "author": "Created by K.Agata",
+    "disclaimer": "Nintendo Switch, Joy-Con, and Pro Controller are trademarks of Nintendo. This application is not affiliated with or endorsed by Nintendo."
+  }
+}
