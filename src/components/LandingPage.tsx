@@ -4,6 +4,7 @@ import { TutorialModal } from './TutorialModal'; // TutorialModalをインポー
 
 import { ProController } from './ProController';
 import { JoyConPair } from './JoyConPair';
+import { Footer } from './Footer';
 
 import { useTranslation } from 'react-i18next';
 
@@ -107,6 +108,7 @@ export const LandingPage: React.FC<Props> = ({ onStart }) => {
       </SvgGallery>
 
       {showTutorial && <TutorialModal onClose={() => setShowTutorial(false)} />}
+      <Footer />
     </LandingContainer>
   );
 };

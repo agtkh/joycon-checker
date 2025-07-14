@@ -10,6 +10,7 @@ import { usePrevious } from '../hooks/usePrevious'; // 作成したフックを�
 import { ButtonLog } from './ButtonLog'; // ログ表示コンポーネントをインポート
 import { SettingsModal } from './SettingsModal';
 import { useTranslation } from 'react-i18next';
+import { Footer } from './Footer';
 
 const CheckerContainer = styled.div`
   width: 100%;
@@ -169,6 +170,7 @@ export const ControllerChecker: React.FC<{ onBack: () => void }> = ({ onBack }) 
       {isSettingsOpen && selectedGamepad && (
         <SettingsModal gamepad={selectedGamepad} onClose={() => setIsSettingsOpen(false)} />
       )}
+      <Footer />
     </CheckerContainer>
   );
 }

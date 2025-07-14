@@ -53,5 +53,9 @@
       },
       "unknown": "Please pair from your OS's Bluetooth settings."
     }
+  },
+  "footer": {
+    "author": "Created by K.Agata",
+    "disclaimer": "Nintendo Switch, Joy-Con, and Pro Controller are trademarks of Nintendo. This application is not affiliated with or endorsed by Nintendo."
   }
 }

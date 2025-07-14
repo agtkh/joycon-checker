@@ -53,5 +53,9 @@
       },
       "unknown": "お使いのOSのBluetooth設定からペアリングしてください。"
     }
+  },
+  "footer": {
+    "author": "作者: K.Agata",
+    "disclaimer": "Nintendo Switch、Joy-Con、Proコントローラーは任天堂の登録商標です。このアプリケーションは任天堂とは一切関係ありません。"
   }
 }
