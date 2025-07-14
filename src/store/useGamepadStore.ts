@@ -13,7 +13,7 @@ interface StickState {
 }
 
 // コントローラーの状態
-interface GamepadState {
+export interface GamepadState {
   id: string; // コントローラーの識別ID
   index: number; // Gamepad APIにおけるインデックス
   buttons: ButtonState[];
